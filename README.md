@@ -31,7 +31,11 @@ composer update
 ```
 php artisan migrate
 ```
-5. Inicializando o Servidor:
+5. Inicializando o Seeder:
+```
+php artisan db:seed
+```
+6. Inicializando o Servidor:
 ```
 php artisan serve
 ```
