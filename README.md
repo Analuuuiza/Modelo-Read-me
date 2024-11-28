@@ -1,7 +1,6 @@
-![LOGO](logo.png)
 # CMD - CENTRO MÉDICO DIGITAL
 
-Um sistema que vai ser maneiro pros postos de saúde
+Um sistema que vai ser maneiro pros postos de saúde. O Centro Médico Digital - CMD tem como meta aprimorar a eficiência e a qualidade do atendimento em postos de saúde, ao mesmo tempo em que oferece insights essenciais para a prevenção e monitoramento de doenças. Ao digitalizar processos e registros, o sistema minimiza a burocracia, permitindo que os profissionais de saúde direcionem sua atenção de forma mais eficaz ao cuidado dos pacientes.
 
 
 ## Dependências e Versões Necessárias
@@ -16,18 +15,23 @@ Rodar o mysql e o apache
 
 Uma boa forma de descrever o passo a passo é:
 
+1. Clone este repositório para o seu ambiente de desenvolvimento local utilizando o comando:
 ```
 git clone https://github.com/alexfigueirinha/cmd.git
 ```
+2. Acesse o diretório do projeto:
 ```
 cd cmd
 ```
+3. Atualizando o Composer:
 ```
 composer update
 ```
+4. Rodando o Migrate:
 ```
 php artisan migrate
 ```
+5. Inicializando o Servidor:
 ```
 php artisan serve
 ```
