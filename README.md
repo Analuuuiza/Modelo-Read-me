@@ -1,4 +1,4 @@
-![LOGO](cmd-logo)
+![LOGO](logo.png)
 # CMD - CENTRO MÉDICO DIGITAL
 
 Um sistema que vai ser maneiro pros postos de saúde
